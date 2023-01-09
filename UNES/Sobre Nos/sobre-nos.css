@@ -1,0 +1,49 @@
+body{
+    margin-right:16%;
+    margin-left:13%;
+}
+
+#cabecalhio{
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#cabecalhio img{
+    margin-top: 2%;
+    width: 195px;
+}
+
+#cabecalhio #menu {
+    background-color: none;
+    position: relative;
+    left:50%; 
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cabecalhio #menu ul a{
+    color: rgb(23, 23, 97);
+    text-decoration: none;
+}
+
+#cabecalhio #menu ul a:hover{
+    color: rgb(141, 141, 230);
+}
+
+#texto1 h2{
+    margin-top: 8%;
+    font-family:  'Times New Roman', Times, serif;
+}
+
+#texto1 p{
+    font-family:  'Times New Roman', Times, serif;
+    margin-right:-5%;
+}
+
+h4 span{
+    align-items: center;
+    margin-left:39%;
+}

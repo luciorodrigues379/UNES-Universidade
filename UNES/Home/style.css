@@ -1,0 +1,65 @@
+body{
+    margin-right:16%;
+    margin-left:13%;
+}
+
+#cabecalhio{
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#cabecalhio img{
+    margin-top: 2%;
+    width: 198px;
+}
+
+#cabecalhio #menu {
+    background-color: none;
+    position: relative;
+    left:50%; 
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cabecalhio #menu ul a{
+    color: rgb(23, 23, 97);
+    text-decoration: none;
+}
+
+#cabecalhio #menu ul a:hover{
+    color: rgb(141, 141, 230);
+
+}
+
+#imagem-inicial{
+    background-color: rgb(207, 207, 211);
+    margin-right:-25%;
+    margin-left:-25%;
+    margin-top: 2%;
+}
+
+#imagem-inicial img{
+    margin-top: 1%;
+    width: 71%;
+    margin-left: 234px;
+    margin-top: 0%;
+    margin-bottom: -4px;
+}
+
+#texto h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#texto p{
+    font-family:  'Times New Roman', Times, serif;
+    margin-right:-6%;
+}
+
+#texto h4 span{
+    align-items: center;
+    margin-left:39%;
+
+}

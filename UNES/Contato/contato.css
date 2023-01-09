@@ -1,0 +1,70 @@
+body{
+    margin-right:16%;
+    margin-left:13%;
+}
+
+#cabecalhio{
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#cabecalhio img{
+    margin-top: 2%;
+    width: 198px;
+}
+
+#cabecalhio #menu{
+    background-color: none;
+    position: relative;
+    left:50%; 
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cabecalhio #menu ul a{
+    color: rgb(23, 23, 97);
+    text-decoration: none;
+}
+
+#cabecalhio #menu ul a:hover{
+    color: rgb(141, 141, 230);
+}
+
+h2{
+    margin-top: 8%;
+}
+
+form label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form #campo_email{
+    background-color: rgb(205, 205, 247);
+    border-color: rgb(13, 13, 14);
+    border-radius: 3px;
+    width: 223px;
+}
+
+form #campo_nome{
+    background-color: rgb(205, 205, 247);
+    border-color: rgb(8, 8, 10);
+    border-radius: 3px;
+    width: 225px;
+}
+form #msg{
+    background-color: rgb(205, 205, 247);
+    border-radius: 3px;
+    border: 2px solid rgb(9, 9, 10);
+}
+form #b_enviar{
+        background-color: rgb(199, 199, 204);
+        border: 2px solid rgb(9, 9, 10);
+        border-radius: 3px;
+}
+
+form #b_enviar:hover{
+    background-color: rgb(72, 72, 245);
+}
